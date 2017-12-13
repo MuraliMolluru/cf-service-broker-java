@@ -1,4 +1,4 @@
-package com.swisscom.servicebroker.rest;
+package com.cloudfoundry.servicebroker.rest;
  
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
