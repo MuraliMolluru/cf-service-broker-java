@@ -1,0 +1,32 @@
+
+services:
+- name: Space-Scoped-Service-java
+  id: b7dd8790-4d3d-4cf0-8992-c55691adee1c
+  description: space scoped service
+  bindable: true
+  tags:
+    - Test
+    - hello
+  metadata:
+    displayName: SpaceScoped
+    longDescription: Testing
+    providerDisplayName: Test
+    documentationUrl: http://test.com/
+    supportUrl: http://support.test.com/
+  plans:
+  - name: small
+    id: 2689eec7-8c42-4fb7-b51b-9f48fd41f79e
+    description: small
+    metadata:
+      displayName: Small
+      cost: 0.0
+      bullets:
+      - content: test
+  - name: medium
+    id: 34dfba58-337f-4dec-8731-1bb76d1c3cca
+    description: medium
+    metadata:
+      displayName: Medium
+      cost: 0.0
+      bullets:
+      - content: test
