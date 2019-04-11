@@ -8,7 +8,6 @@
 	<name>Simple Java Service broker for Cloud foundry</name>
 	<url>http://maven.apache.org</url>
 
-
 	<repositories>
 		<repository>
 			<id>maven2-repository.java.net</id>
